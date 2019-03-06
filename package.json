@@ -1,0 +1,64 @@
+{
+  "_args": [
+    [
+      "@riddles/gulp-images@1.1.1",
+      "/Users/jimvaneeden/development/aion-matchviewer"
+    ]
+  ],
+  "_development": true,
+  "_from": "@riddles/gulp-images@1.1.1",
+  "_id": "@riddles/gulp-images@1.1.1",
+  "_inBundle": false,
+  "_integrity": "sha1-Ru1dNCfCvgPOuutk87Kmg54yros=",
+  "_location": "/@riddles/gulp-images",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@riddles/gulp-images@1.1.1",
+    "name": "@riddles/gulp-images",
+    "escapedName": "@riddles%2fgulp-images",
+    "scope": "@riddles",
+    "rawSpec": "1.1.1",
+    "saveSpec": null,
+    "fetchSpec": "1.1.1"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@riddles/gulp-images/-/gulp-images-1.1.1.tgz",
+  "_spec": "1.1.1",
+  "_where": "/Users/jimvaneeden/development/aion-matchviewer",
+  "author": {
+    "name": "Niko van Meurs",
+    "email": "niko@riddles.io"
+  },
+  "bugs": {
+    "url": "https://github.com/riddlesio/gulp-images/issues"
+  },
+  "dependencies": {
+    "gulp-changed": "^1.3.0",
+    "gulp-imagemin": "^2.4.0",
+    "merge-stream": "^1.0.1"
+  },
+  "description": "Gulp task for preprocessing image assets",
+  "devDependencies": {
+    "@riddles/npm-discord-notifier": "^1.0.6"
+  },
+  "homepage": "https://github.com/riddlesio/gulp-images",
+  "keywords": [
+    "Gulp",
+    "images"
+  ],
+  "license": "LicenceRef-LICENSE",
+  "main": "index.js",
+  "name": "@riddles/gulp-images",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/riddlesio/gulp-images.git"
+  },
+  "scripts": {
+    "postpublish": "notify-discord -c \"155423979354456064\" -t \"MTU0NDg5NTMyNTI2MzYyNjI0.CbuABw.yKQdIkpHxxU7ykeCSx9HIEMtkqA\""
+  },
+  "version": "1.1.1"
+}
